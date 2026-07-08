@@ -1,0 +1,11 @@
+{
+  "id": "cover",
+  "name": "封面页",
+  "description": "首页：主标题 + 副标题 + 日期/标签",
+  "background": "background",
+  "placeholders": [
+    { "key": "title", "type": "text", "required": true, "style": "title", "align": "left", "rect": [0.08, 0.36, 0.84, 0.18] },
+    { "key": "subtitle", "type": "text", "required": false, "style": "subtitle", "align": "left", "rect": [0.08, 0.55, 0.84, 0.08] },
+    { "key": "date", "type": "text", "required": false, "style": "caption", "align": "left", "rect": [0.08, 0.88, 0.5, 0.06] }
+  ]
+}
