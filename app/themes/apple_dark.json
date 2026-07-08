@@ -1,0 +1,37 @@
+{
+  "id": "apple_dark",
+  "display_name": "Apple 深色发布会",
+  "colors": {
+    "primary": "#FFFFFF",
+    "secondary": "#A1A1A6",
+    "background": "#000000",
+    "surface": "#1D1D1F",
+    "text_primary": "#FFFFFF",
+    "text_secondary": "#A1A1A6",
+    "text_on_primary": "#000000",
+    "accent": "#0071E3",
+    "divider": "#2C2C2E"
+  },
+  "fonts": {
+    "heading_zh": ["PingFang SC", "Microsoft YaHei", "SimHei"],
+    "heading_en": ["Helvetica Neue", "Arial"],
+    "body_zh": ["PingFang SC", "Microsoft YaHei"],
+    "body_en": ["Helvetica Neue", "Arial"],
+    "sizes": {
+      "title": 54,
+      "subtitle": 26,
+      "h2": 32,
+      "body": 20,
+      "caption": 14
+    }
+  },
+  "layout": {
+    "slide_width_in": 13.333,
+    "slide_height_in": 7.5,
+    "margin_in": 0.8
+  },
+  "decor": {
+    "cover_accent_bar": false,
+    "page_number": false
+  }
+}
