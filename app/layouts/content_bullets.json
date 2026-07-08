@@ -1,0 +1,10 @@
+{
+  "id": "content_bullets",
+  "name": "内容页-要点列表",
+  "description": "标准内容页：标题 + 项目符号列表",
+  "background": "background",
+  "placeholders": [
+    { "key": "title", "type": "text", "required": true, "style": "h2", "align": "left", "rect": [0.08, 0.07, 0.84, 0.12] },
+    { "key": "bullets", "type": "bullet_list", "required": true, "style": "body", "align": "left", "rect": [0.08, 0.24, 0.84, 0.66] }
+  ]
+}
