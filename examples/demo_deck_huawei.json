@@ -1,0 +1,46 @@
+{
+  "theme": "huawei_light",
+  "slides": [
+    {
+      "layout": "cover",
+      "content": {
+        "title": "2026年度技术战略汇报",
+        "subtitle": "云核心网产品线 · 战略规划部",
+        "date": "2026.07"
+      }
+    },
+    {
+      "layout": "toc",
+      "content": {
+        "title": "目录",
+        "bullets": ["业务背景与挑战", "技术方案总览", "分阶段路线图", "资源与风险", "总结与展望"]
+      }
+    },
+    {
+      "layout": "section_divider",
+      "content": { "index": "01", "title": "业务背景与挑战" }
+    },
+    {
+      "layout": "content_bullets",
+      "content": {
+        "title": "当前面临的三个核心问题",
+        "bullets": [
+          "跨机房时延波动大，SLA 达标率不足 95%",
+          "存量系统扩容周期长，平均 3 周才能上线一个新节点",
+          "运维告警噪音过多，一线定位效率低"
+        ]
+      }
+    },
+    {
+      "layout": "quote",
+      "content": {
+        "quote": "把复杂留给架构，把简单留给用户。",
+        "attribution": "—— 架构评审会纪要"
+      }
+    },
+    {
+      "layout": "closing",
+      "content": { "title": "谢谢", "subtitle": "Q & A" }
+    }
+  ]
+}
