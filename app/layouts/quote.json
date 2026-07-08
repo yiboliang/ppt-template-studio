@@ -1,0 +1,10 @@
+{
+  "id": "quote",
+  "name": "引述页",
+  "description": "大字引述 + 来源署名",
+  "background": "surface",
+  "placeholders": [
+    { "key": "quote", "type": "text", "required": true, "style": "quote", "align": "left", "rect": [0.1, 0.32, 0.8, 0.32] },
+    { "key": "attribution", "type": "text", "required": false, "style": "caption", "align": "left", "rect": [0.1, 0.68, 0.6, 0.06] }
+  ]
+}
