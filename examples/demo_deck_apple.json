@@ -1,0 +1,46 @@
+{
+  "theme": "apple_dark",
+  "slides": [
+    {
+      "layout": "cover",
+      "content": {
+        "title": "Introducing Vision Pro Pro Max",
+        "subtitle": "The next chapter of spatial computing.",
+        "date": "2026.07"
+      }
+    },
+    {
+      "layout": "toc",
+      "content": {
+        "title": "Agenda",
+        "bullets": ["Design", "Performance", "Ecosystem", "Availability"]
+      }
+    },
+    {
+      "layout": "section_divider",
+      "content": { "index": "01", "title": "Design" }
+    },
+    {
+      "layout": "content_bullets",
+      "content": {
+        "title": "A completely new form factor",
+        "bullets": [
+          "40% lighter than the previous generation",
+          "New micro-OLED display at 4x the pixel density",
+          "All-day battery life in a single charge"
+        ]
+      }
+    },
+    {
+      "layout": "quote",
+      "content": {
+        "quote": "This changes everything.",
+        "attribution": "— Keynote, 2026"
+      }
+    },
+    {
+      "layout": "closing",
+      "content": { "title": "Thank you.", "subtitle": "Available this fall." }
+    }
+  ]
+}
