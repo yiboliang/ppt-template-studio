@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>PPT Template Studio</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">PPT Template Studio</div>
+    <div class="theme-picker">
+      <label for="themeSelect">主题</label>
+      <select id="themeSelect"></select>
+    </div>
+  </header>
+
+  <main class="layout">
+    <section class="col add-panel">
+      <h2>添加幻灯片</h2>
+      <label for="layoutSelect">版式</label>
+      <select id="layoutSelect"></select>
+      <p class="hint" id="layoutHint"></p>
+      <form id="slideForm"></form>
+      <button id="addSlideBtn" type="button">+ 添加到大纲</button>
+    </section>
+
+    <section class="col outline-panel">
+      <h2>大纲 <span id="slideCount" class="count"></span></h2>
+      <ol id="slideList" class="slide-list"></ol>
+      <div class="actions">
+        <button id="generateBtn" type="button" class="primary">生成并下载 PPT</button>
+        <button id="clearBtn" type="button" class="ghost">清空</button>
+      </div>
+      <p id="statusMsg" class="status"></p>
+    </section>
+
+    <section class="col json-panel">
+      <h2>Deck JSON（可直接编辑 / 导入导出）</h2>
+      <textarea id="jsonBox" spellcheck="false"></textarea>
+      <div class="actions">
+        <button id="applyJsonBtn" type="button">应用 JSON → 大纲</button>
+      </div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
