@@ -1,0 +1,10 @@
+{
+  "id": "toc",
+  "name": "目录页",
+  "description": "章节目录：标题 + 编号列表",
+  "background": "background",
+  "placeholders": [
+    { "key": "title", "type": "text", "required": true, "style": "h2", "align": "left", "rect": [0.08, 0.08, 0.84, 0.12] },
+    { "key": "bullets", "type": "numbered_list", "required": true, "style": "body", "align": "left", "rect": [0.08, 0.26, 0.84, 0.64] }
+  ]
+}
