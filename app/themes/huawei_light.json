@@ -1,0 +1,37 @@
+{
+  "id": "huawei_light",
+  "display_name": "华为浅色（企业标准）",
+  "colors": {
+    "primary": "#C7000B",
+    "secondary": "#4C4C4C",
+    "background": "#FFFFFF",
+    "surface": "#F5F5F5",
+    "text_primary": "#1A1A1A",
+    "text_secondary": "#666666",
+    "text_on_primary": "#FFFFFF",
+    "accent": "#C7000B",
+    "divider": "#E0E0E0"
+  },
+  "fonts": {
+    "heading_zh": ["Microsoft YaHei", "PingFang SC", "SimHei"],
+    "heading_en": ["Arial", "Helvetica"],
+    "body_zh": ["Microsoft YaHei", "PingFang SC", "SimSun"],
+    "body_en": ["Arial", "Helvetica"],
+    "sizes": {
+      "title": 40,
+      "subtitle": 22,
+      "h2": 28,
+      "body": 18,
+      "caption": 12
+    }
+  },
+  "layout": {
+    "slide_width_in": 13.333,
+    "slide_height_in": 7.5,
+    "margin_in": 0.6
+  },
+  "decor": {
+    "cover_accent_bar": true,
+    "page_number": true
+  }
+}
