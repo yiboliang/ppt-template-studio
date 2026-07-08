@@ -1,0 +1,10 @@
+{
+  "id": "closing",
+  "name": "结尾页",
+  "description": "致谢/联系方式",
+  "background": "background",
+  "placeholders": [
+    { "key": "title", "type": "text", "required": true, "style": "title", "align": "center", "rect": [0.08, 0.42, 0.84, 0.16] },
+    { "key": "subtitle", "type": "text", "required": false, "style": "subtitle", "align": "center", "rect": [0.08, 0.6, 0.84, 0.08] }
+  ]
+}
