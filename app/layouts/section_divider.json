@@ -1,0 +1,10 @@
+{
+  "id": "section_divider",
+  "name": "章节分隔页",
+  "description": "用于切分章节：编号 + 章节标题",
+  "background": "surface",
+  "placeholders": [
+    { "key": "index", "type": "text", "required": false, "style": "index", "align": "left", "rect": [0.08, 0.34, 0.3, 0.2] },
+    { "key": "title", "type": "text", "required": true, "style": "h2", "align": "left", "rect": [0.08, 0.54, 0.84, 0.16] }
+  ]
+}
